@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/jQuery原理/09-jQueryDOM操作相关方法.html" line="63" />
+    <bookmark url="file://$PROJECT_DIR$/jQuery原理/13-jQueryDOM操作相关方法.html" line="42" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e577eaf5-c09d-484e-b186-7241a9be5e5a" name="Default" comment="" />
+    <ignored path="jQuery.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="jQuery" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="jquery.cookie.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/js/jquery.cookie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="46" />
+              <folding>
+                <element signature="e#105#334#0" />
+                <element signature="e#381#1089#0" />
+                <element signature="e#1140#1816#0" />
+                <element signature="e#1870#3156#0" />
+                <element signature="e#3230#3681#0" />
+                <element signature="e#3756#4207#0" />
+                <element signature="e#4282#4827#0" />
+                <element signature="e#5109#5858#0" />
+                <element signature="e#5904#6233#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="16-cookie-封装.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ajax/16-cookie-封装.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="51" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17-hash.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ajax/17-hash.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="55" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>progress</find>
+      <find>initMusicLyric</find>
+      <find>voice</find>
+      <find>initMusicInfo</find>
+      <find>content_ri</find>
+      <find>window.jQuery</find>
+      <find>jQuery.prototype</find>
+      <find>undefined</find>
+      <find>window.jquery</find>
+      <find>jQuery.fn</find>
+      <find>jQuery.ex</find>
+      <find>extend</find>
+      <find>isWindow</find>
+      <find>isArray</find>
+      <find>jQuery.extend</find>
+      <find>ready</find>
+      <find>core_push</find>
+      <find>empty</find>
+      <find>empty:</find>
+      <find>indexof</find>
+      <find>click</find>
+      <find>file_uploads</find>
+      <find>upload_max_filesize</find>
+      <find>post_max_size</find>
+      <find>max_execution_time</find>
+      <find>max_input_time</find>
+      <find>memory_limit</find>
+      <find>user_v</find>
+      <find>xmg</find>
+      <find>it666</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>li</replace>
+      <replace>cover</replace>
+      <replace>link_url</replace>
+      <replace>link_lrc</replace>
+      <replace>singer</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Ajax/03-post-file.php" />
+        <option value="$PROJECT_DIR$/Ajax/04-Ajax-get.html" />
+        <option value="$PROJECT_DIR$/Ajax/05-ajax-get.txt" />
+        <option value="$PROJECT_DIR$/Ajax/05-ajax-get.html" />
+        <option value="$PROJECT_DIR$/Ajax/04-ajax-get.html" />
+        <option value="$PROJECT_DIR$/Ajax/07-user_view.php" />
+        <option value="$PROJECT_DIR$/Ajax/资料/style/common.css" />
+        <option value="$PROJECT_DIR$/Ajax/style/common.css" />
+        <option value="$PROJECT_DIR$/Ajax/07-user.php" />
+        <option value="$PROJECT_DIR$/Ajax/07-user_test.html" />
+        <option value="$PROJECT_DIR$/Ajax/04-ajax-get.php" />
+        <option value="$PROJECT_DIR$/Ajax/06-ajax-get.html" />
+        <option value="$PROJECT_DIR$/Ajax/08-ajax-get.html" />
+        <option value="$PROJECT_DIR$/Ajax/08-ajax-post.php" />
+        <option value="$PROJECT_DIR$/Ajax/08-ajax-post.html" />
+        <option value="$PROJECT_DIR$/Ajax/09-ajax-jquery.php" />
+        <option value="$PROJECT_DIR$/Ajax/09-ajax-jquery.html" />
+        <option value="$PROJECT_DIR$/Ajax/09-ajax-xml.html" />
+        <option value="$PROJECT_DIR$/Ajax/11-ajx-xml.php" />
+        <option value="$PROJECT_DIR$/Ajax/info.xml" />
+        <option value="$PROJECT_DIR$/Ajax/11-ajax-xml.php" />
+        <option value="$PROJECT_DIR$/Ajax/11-ajax-xml.html" />
+        <option value="$PROJECT_DIR$/Ajax/myAjax2.js" />
+        <option value="$PROJECT_DIR$/Ajax/10-ajax-test.xml" />
+        <option value="$PROJECT_DIR$/Ajax/12-ajax-json.txt" />
+        <option value="$PROJECT_DIR$/Ajax/12-ajax-json.php" />
+        <option value="$PROJECT_DIR$/Ajax/12-ajax-json.html" />
+        <option value="$PROJECT_DIR$/Ajax/10-ajax-json.txt" />
+        <option value="$PROJECT_DIR$/Ajax/10-ajax-test.txt" />
+        <option value="$PROJECT_DIR$/Ajax/10-ajax-test.php" />
+        <option value="$PROJECT_DIR$/Ajax/10-ajax-test.html" />
+        <option value="$PROJECT_DIR$/Ajax/myAjax.js" />
+        <option value="$PROJECT_DIR$/Ajax/js/njQuery-1.4.0.js" />
+        <option value="$PROJECT_DIR$/Ajax/55-新浪微博/index.html" />
+        <option value="$PROJECT_DIR$/Ajax/55-新浪微博/js/index.js" />
+        <option value="$PROJECT_DIR$/Ajax/55-新浪微博/weibo.php" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo-demo/css/index.css" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo-demo/js/index.js" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo/weibo.php" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo-demo/index.html" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo/test.html" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo-demo/weibo.php" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo/css/index.css" />
+        <option value="$PROJECT_DIR$/Ajax/15-cookie-test.html" />
+        <option value="$PROJECT_DIR$/Ajax/14-cookie.html" />
+        <option value="$PROJECT_DIR$/Ajax/16-cookie-fn.html" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo/index.html" />
+        <option value="$PROJECT_DIR$/Ajax/16-cookie-封装.html" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo/js/jquery.cookie.js" />
+        <option value="$PROJECT_DIR$/Ajax/17-hash.html" />
+        <option value="$PROJECT_DIR$/Ajax/13-weibo/js/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="375" />
+    <option name="width" value="1550" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="13-weibo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="13-weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Jonathan_Lee/Desktop/jQuery/code/57-QQ音乐播放器/index.html" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.karma.karma_node_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\jQuery\Ajax\images" />
+      <recent name="D:\wamp64\www\jQuery\Ajax" />
+      <recent name="C:\Users\Jonathan_Lee\Desktop\jQuery\Ajax\资料\style" />
+      <recent name="C:\Users\Jonathan_Lee\Desktop\jQuery\Ajax\资料" />
+      <recent name="C:\Users\Jonathan_Lee\Desktop\jQuery\作业" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\jQuery" />
+      <recent name="D:\wamp64\www\jQuery\Ajax\13-weibo" />
+      <recent name="D:\wamp64\www\jQuery\作业" />
+      <recent name="D:\wamp64\www\jQuery\Ajax" />
+      <recent name="D:\wamp64\www\jQuery\Ajax\55-新浪微博" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Jonathan_Lee\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e577eaf5-c09d-484e-b186-7241a9be5e5a" name="Default" comment="" />
+      <created>1521961452555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521961452555</updated>
+      <workItem from="1521961454406" duration="261000" />
+      <workItem from="1521962607326" duration="288000" />
+      <workItem from="1521963571212" duration="599000" />
+      <workItem from="1521964705555" duration="377000" />
+      <workItem from="1521965505136" duration="5284000" />
+      <workItem from="1522043779676" duration="15801000" />
+      <workItem from="1522217008900" duration="150000" />
+      <workItem from="1522217337357" duration="15353000" />
+      <workItem from="1522233395129" duration="307000" />
+      <workItem from="1522233727357" duration="140000" />
+      <workItem from="1522233904833" duration="39000" />
+      <workItem from="1522234108096" duration="9000" />
+      <workItem from="1522234359734" duration="33037000" />
+      <workItem from="1522335698795" duration="50362000" />
+      <workItem from="1522643354235" duration="26606000" />
+      <workItem from="1522734041161" duration="31643000" />
+      <workItem from="1522817849031" duration="22233000" />
+      <workItem from="1522908015929" duration="23313000" />
+      <workItem from="1522991389958" duration="22392000" />
+      <workItem from="1523016519140" duration="14837000" />
+      <workItem from="1523074960110" duration="11166000" />
+      <workItem from="1523088795161" duration="26975000" />
+      <workItem from="1523166220371" duration="960000" />
+      <workItem from="1523205377141" duration="295000" />
+      <workItem from="1523240264475" duration="27375000" />
+      <workItem from="1523273733628" duration="858000" />
+      <workItem from="1523274767662" duration="17982000" />
+      <workItem from="1523429163923" duration="13247000" />
+      <workItem from="1523442999108" duration="1669000" />
+      <workItem from="1523444875076" duration="30943000" />
+      <workItem from="1523504775957" duration="1664000" />
+      <workItem from="1523507490650" duration="28260000" />
+      <workItem from="1523548409144" duration="3607000" />
+      <workItem from="1523552064493" duration="259000" />
+      <workItem from="1523585796111" duration="38160000" />
+      <workItem from="1523704005052" duration="8054000" />
+      <workItem from="1523783024942" duration="61664000" />
+      <workItem from="1523956619660" duration="14036000" />
+      <workItem from="1524035055475" duration="113134000" />
+      <workItem from="1524397107360" duration="5671000" />
+      <workItem from="1524440910384" duration="11341000" />
+      <workItem from="1524453809548" duration="23279000" />
+      <workItem from="1524551273557" duration="20790000" />
+      <workItem from="1524627775781" duration="2402000" />
+      <workItem from="1524792307379" duration="9677000" />
+      <workItem from="1524804944846" duration="23587000" />
+      <workItem from="1524833248653" duration="8940000" />
+      <workItem from="1524889682318" duration="39271000" />
+      <workItem from="1525069597199" duration="599000" />
+      <workItem from="1525155732429" duration="18017000" />
+      <workItem from="1525235312279" duration="24099000" />
+      <workItem from="1525418412751" duration="700000" />
+      <workItem from="1525506976942" duration="102000" />
+      <workItem from="1525513326247" duration="46000" />
+      <workItem from="1525579968726" duration="1634000" />
+      <workItem from="1525590249871" duration="299000" />
+      <workItem from="1525592229072" duration="8301000" />
+      <workItem from="1525601115175" duration="222000" />
+      <workItem from="1525601699915" duration="7871000" />
+      <workItem from="1525670532629" duration="20234000" />
+      <workItem from="1525750470955" duration="4510000" />
+      <workItem from="1525761263201" duration="36566000" />
+      <workItem from="1525924938324" duration="14401000" />
+      <workItem from="1526007762046" duration="1523000" />
+      <workItem from="1526009661439" duration="2680000" />
+      <workItem from="1526013828437" duration="29197000" />
+      <workItem from="1526183630675" duration="169000" />
+      <workItem from="1526184062558" duration="5753000" />
+      <workItem from="1526193546161" duration="633000" />
+      <workItem from="1526195707508" duration="925000" />
+      <workItem from="1526449995406" duration="9394000" />
+      <workItem from="1526537458877" duration="14344000" />
+      <workItem from="1526717185684" duration="16725000" />
+      <workItem from="1526798053342" duration="15810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1043051000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="300" y="0" width="1240" height="832" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923327" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962447" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923327" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../bin/apache/apache2.4.23/bin/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="392" column="20" selection-start-line="392" selection-start-column="20" selection-end-line="392" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/03-post-file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/03-post-file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/05-ajax-get.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/04-ajax-get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/style/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/07-user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/07-user_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/04-ajax-get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/05-ajax-get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/08-ajax-get.html" />
+    <entry file="file://$PROJECT_DIR$/Ajax/08-ajax-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/06-ajax-get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/09-ajax-jquery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/09-ajax-jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/11-ajx-xml.php" />
+    <entry file="file://$PROJECT_DIR$/Ajax/资料/回顾.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="52" selection-start-line="52" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/11-ajax-xml.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/11-ajax-xml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/12-ajax-json.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/12-ajax-json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/10-ajax-json.txt" />
+    <entry file="file://$PROJECT_DIR$/Ajax/12-ajax-json.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/10-ajax-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/10-ajax-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/10-ajax-test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/10-ajax-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/08-ajax-post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/myAjax2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/myAjax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/js/njQuery-1.4.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="252" column="44" lean-forward="true" selection-start-line="252" selection-start-column="44" selection-end-line="252" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/07-user_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo-demo/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo-demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo-demo/weibo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="87" column="15" lean-forward="true" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo-demo/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="123" column="1" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/weibo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-cookie-test.html" />
+    <entry file="file://$PROJECT_DIR$/作业/16-cookie-test.html" />
+    <entry file="file://$PROJECT_DIR$/Ajax/15-cookie-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/16-cookie-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-cookie-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/14-cookie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/17-hash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="55" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/13-weibo/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="46" />
+          <folding>
+            <element signature="e#105#334#0" />
+            <element signature="e#381#1089#0" />
+            <element signature="e#1140#1816#0" />
+            <element signature="e#1870#3156#0" />
+            <element signature="e#3230#3681#0" />
+            <element signature="e#3756#4207#0" />
+            <element signature="e#4282#4827#0" />
+            <element signature="e#5109#5858#0" />
+            <element signature="e#5904#6233#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/16-cookie-封装.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
