@@ -8,11 +8,38 @@
     <title>Document</title>
     <script src="jquery-1.12.4.js"></script>
     <script>
-        var jq = jQuery.noConflict();
-        jq(function() {
-            alert("hello");
+        // var jq = jQuery.noConflict();
+        // jq(function() {
+        //     alert("hello");
 
-        });
+        // });
+
+
+        // var page = function() {
+        //     alert("page");
+        // }
+
+        // page();
+
+        //js静态方法
+        function AClass() {};
+
+        AClass.staticMethod = function() {
+            alert("nihao");
+        }
+        AClass.staticMethod();
+
+        //js实例方法（原型）
+        function abc() {};
+        //abc是创建对象的名  可自取   Method是原型方法名  可自取
+        abc.prototype.Method = function() {
+                alert("instanceMethod");
+            }
+            // 实例方法通过类的实例调用
+            // 创建一个实例(创建一个对象)
+        var a = new abc();
+        // 通过实例调用实例方法
+        a.Method();
     </script>
 </head>
 
