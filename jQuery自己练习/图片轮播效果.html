@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery-1.12.4.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        div {
+            height: 161px;
+            width: 600px;
+            border: 1px solid #000000;
+            margin: 50px auto;
+            overflow: hidden;
+        }
+        
+        ul {
+            list-style: none;
+            background: #000000;
+            width: 1800px;
+            height: 161px;
+        }
+        
+        ul>li {
+            float: left;
+        }
+    </style>
+    <script>
+        $(function() {
+
+            var offset = 0;
+            var timer;
+
+            function autoPlay() {
+                timer = setInterval(function() {
+                    offset -= 10;
+                    if (offset <= -1200) {
+                        offset = 0;
+                    }
+                    $("ul").css("marginLeft", offset);
+                }, 100)
+            }
+            autoPlay();
+
+            $("li").hover(function() {
+                clearInterval(timer);
+                $(this).siblings().fadeTo(100, 0.5) //暂时存在bug（快速在2个图片之间移动会延时闪烁）  数值设为0时bug现象没有
+                $(this).fadeTo(100, 1);
+            }, function() {
+                autoPlay();
+                $("li").fadeTo(100, 1); //暂时存在bug（快速在2个图片之间移动会延时闪烁）  数值设为0时bug现象没有
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><img src="../jQuery基础/images/a.jpg" alt=""></li>
+            <li><img src="../jQuery基础/images/b.jpg" alt=""></li>
+            <li><img src="../jQuery基础/images/c.jpg" alt=""></li>
+            <li><img src="../jQuery基础/images/d.jpg" alt=""></li>
+            <li><img src="../jQuery基础/images/a.jpg" alt=""></li>
+            <li><img src="../jQuery基础/images/b.jpg" alt=""></li>
+        </ul>
+    </div>
+</body>
+
+</html>
