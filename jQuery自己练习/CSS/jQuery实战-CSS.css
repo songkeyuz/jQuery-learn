@@ -135,6 +135,10 @@ body {
     background-color: skyblue;
 }
 
+.content .carousel .circles li a.cur {
+    background-color: skyblue;
+}
+
 .content .carousel .imgs {
     float: left;
     width: 800px;
